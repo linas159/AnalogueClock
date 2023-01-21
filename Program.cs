@@ -22,7 +22,7 @@ namespace AnalogueClock
             double angle = Math.Abs(hourAngle - minuteAngle);
             angle = Math.Min(360 - angle, angle); // Lesser angle
 
-            Console.WriteLine("The lesser angle between the hours and minutes arrows is: " + angle + " degrees.");
+            Console.WriteLine("The lesser angle between the hours and minutes arrows is: " + angle + " degrees."); // Output
             Console.ReadKey();
         }
     }
